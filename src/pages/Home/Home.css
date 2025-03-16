@@ -1,0 +1,33 @@
+.top-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.top-title {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.todo-list li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.todo-list li:first-child {
+  display: flex;
+  justify-content: flex-end;
+  width: 700px;
+  border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.todo-list li:not(:first-child) {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}

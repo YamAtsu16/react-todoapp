@@ -1,0 +1,19 @@
+.todo-description {
+  width: 500px;
+}
+
+.button-area {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.done {
+  text-decoration: line-through;
+}
